@@ -47,9 +47,10 @@ Berdasarkan pengujian laboratorium menggunakan Vector Network Analyzer (VNA) **K
 ## 📸 Galeri Realisasi Fisik & Pengukuran Laboratorium
 
 <p align="center">
-  <img src="assets/fabrication/03_antena_realisasi_fisik_sma_detail.jpg" alt="Prototipe Fisik Antena Mikrostrip Inset-Fed" width="550"/>
+  <img src="assets/fabrication/03_antena_realisasi_fisik_sma_detail.jpg" alt="Prototipe Fisik Antena Mikrostrip Tampak Atas (Patch)" width="48%"/>
+  <img src="assets/fabrication/04_antena_groundplane_label_kelompok.jpg" alt="Prototipe Fisik Antena Mikrostrip Tampak Bawah (Ground Plane)" width="48%"/>
   <br/>
-  <em>Gambar 1: Prototipe fisik antena mikrostrip single patch dengan inset-feed dan konektor edge-mount SMA pada substrat PCB FR-4.</em>
+  <em>Gambar 1: Prototipe fisik antena mikrostrip single patch pada PCB FR-4. Kiri: Tampak atas elemen peradiasi (patch) dengan saluran inset-feed dan konektor edge-mount SMA. Kanan: Tampak bawah (ground plane tembaga) beserta label identitas praktikan dan catatan hasil ukur laboratorium (M1 = 3,614 GHz, M2 = 3,774 GHz, BW = 160 MHz).</em>
 </p>
 
 <p align="center">
@@ -96,7 +97,8 @@ Meskipun terjadi pergeseran frekuensi, nilai return loss aktual sebesar **$-16,9
 │   ├── fabrication/                               # Dokumentasi tahapan fabrikasi hardware
 │   │   ├── 01_tahapan_fabrikasi_etching.png       # Alur transfer pola & pelarutan kimia
 │   │   ├── 02_antena_tampak_depan_belakang.jpeg   # Foto fisik antena depan dan belakang
-│   │   └── 03_antena_realisasi_fisik_sma_detail.jpg # Foto makro prototipe antena & konektor SMA
+│   │   ├── 03_antena_realisasi_fisik_sma_detail.jpg # Foto tampak atas (patch & inset-feed)
+│   │   └── 04_antena_groundplane_label_kelompok.jpg # Foto tampak bawah (ground plane & data ukur)
 │   └── measurement/                               # Dokumentasi pengukuran instrumen RF
 │       ├── 01_keysight_fieldfox_vna_setup.jpeg    # Pengukuran dengan Keysight FieldFox N9917B
 │       ├── 02_s11_fieldfox_measurement_curve.jpeg # Kurva S11 terukur pada layar VNA

@@ -68,6 +68,13 @@ Berdasarkan pengujian laboratorium menggunakan Vector Network Analyzer (VNA) **K
   <em>Gambar 3: Karakteristik pola radiasi 3D medan jauh (Farfield): Direktivitas sebesar 6,488 dBi dan Gain sebesar 5,319 dBi.</em>
 </p>
 
+<p align="center">
+  <img src="assets/measurement/01_keysight_fieldfox_vna_setup.jpeg" alt="Keysight FieldFox N9917B Hardware Setup" width="48%"/>
+  <img src="assets/measurement/05_fieldfox_remote_display_datalink.jpg" alt="FieldFox Remote Display & Data Link Interface" width="48%"/>
+  <br/>
+  <em>Gambar 4: Lingkungan akuisisi data RF laboratorium. Kiri: Unit fisik Keysight FieldFox N9917B di meja kerja praktikum. Kanan: Antarmuka software PC 'FieldFox Remote Display' dan 'Keysight FieldFox Data Link' untuk pencatatan kurva S11 dan ekspor data telemetri CSV.</em>
+</p>
+
 ---
 
 ## 📈 Analisis Pergeseran Frekuensi & Toleransi Fabrikasi
@@ -104,7 +111,8 @@ Meskipun terjadi pergeseran frekuensi, nilai return loss aktual sebesar **$-16,9
 │       ├── 01_keysight_fieldfox_vna_setup.jpeg    # Pengukuran dengan Keysight FieldFox N9917B
 │       ├── 02_s11_fieldfox_measurement_curve.jpeg # Kurva S11 terukur pada layar VNA
 │       ├── 03_tabel_komparasi_simulasi_realisasi.jpeg # Data komparasi parameter terukur
-│       └── 04_anritsu_sitemaster_measurement.jpg  # Layar pengukuran instrumen Anritsu Site Master
+│       ├── 04_anritsu_sitemaster_measurement.jpg  # Layar pengukuran instrumen Anritsu Site Master
+│       └── 05_fieldfox_remote_display_datalink.jpg # Software akuisisi PC Remote Display & Data Link
 └── README.md
 ```
 

@@ -69,10 +69,11 @@ Berdasarkan pengujian laboratorium menggunakan Vector Network Analyzer (VNA) **K
 </p>
 
 <p align="center">
-  <img src="assets/measurement/01_keysight_fieldfox_vna_setup.jpeg" alt="Keysight FieldFox N9917B Hardware Setup" width="48%"/>
-  <img src="assets/measurement/05_fieldfox_remote_display_datalink.jpg" alt="FieldFox Remote Display & Data Link Interface" width="48%"/>
+  <img src="assets/measurement/01_keysight_fieldfox_vna_setup.jpeg" alt="Keysight FieldFox N9917B Hardware Setup" width="32%"/>
+  <img src="assets/measurement/06_keysight_fieldfox_port_connected.jpg" alt="FieldFox RF Cable Connection Close-up" width="32%"/>
+  <img src="assets/measurement/05_fieldfox_remote_display_datalink.jpg" alt="FieldFox Remote Display & Data Link Interface" width="32%"/>
   <br/>
-  <em>Gambar 4: Lingkungan akuisisi data RF laboratorium. Kiri: Unit fisik Keysight FieldFox N9917B di meja kerja praktikum. Kanan: Antarmuka software PC 'FieldFox Remote Display' dan 'Keysight FieldFox Data Link' untuk pencatatan kurva S11 dan ekspor data telemetri CSV.</em>
+  <em>Gambar 4: Lingkungan akuisisi data RF laboratorium. Kiri: Unit instrumen Keysight FieldFox N9917B di meja praktikum. Tengah: Pengujian langsung dengan kabel RF port terkoneksi (Marker 2 presisi: 3,6926642 GHz @ 16,98 dB). Kanan: Antarmuka software PC 'FieldFox Remote Display' dan 'Keysight Data Link' untuk pencatatan telemetri.</em>
 </p>
 
 ---
@@ -112,7 +113,8 @@ Meskipun terjadi pergeseran frekuensi, nilai return loss aktual sebesar **$-16,9
 │       ├── 02_s11_fieldfox_measurement_curve.jpeg # Kurva S11 terukur pada layar VNA
 │       ├── 03_tabel_komparasi_simulasi_realisasi.jpeg # Data komparasi parameter terukur
 │       ├── 04_anritsu_sitemaster_measurement.jpg  # Layar pengukuran instrumen Anritsu Site Master
-│       └── 05_fieldfox_remote_display_datalink.jpg # Software akuisisi PC Remote Display & Data Link
+│       ├── 05_fieldfox_remote_display_datalink.jpg # Software akuisisi PC Remote Display & Data Link
+│       └── 06_keysight_fieldfox_port_connected.jpg # Foto pengukuran instrumen dengan kabel RF terhubung
 └── README.md
 ```
 

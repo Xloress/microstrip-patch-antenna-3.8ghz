@@ -1,5 +1,10 @@
 # Design, Optimization, Fabrication, and Measurement of Inset-Fed Microstrip Single Patch Antenna (3.8 GHz) on FR-4 PCB
 
+[![CST Studio](https://img.shields.io/badge/Simulation-CST%20Studio%20Suite-red)]()
+[![Hardware](https://img.shields.io/badge/Hardware-PCB%20FR--4%20Fabrication-orange)]()
+[![Keysight VNA](https://img.shields.io/badge/VNA-Keysight%20FieldFox%20N9917B-blue)]()
+[![Anritsu](https://img.shields.io/badge/RF-Anritsu%20Site%20Master-green)]()
+
 Repositori ini memuat dokumentasi teknik komprehensif mengenai siklus rekayasa antena gelombang mikro (*microwave antenna engineering*) dari perancangan matematis, pemodelan dan optimasi numerik menggunakan **CST Studio Suite**, proses fabrikasi kimiawi (*wet etching* PCB), hingga pengujian dan validasi parameter frekuensi radio (*RF*) aktual menggunakan **Keysight FieldFox N9917B Microwave Analyzer**.
 
 Proyek praktikum ini diselenggarakan pada mata kuliah *Antena dan Propagasi*, Program Studi D4 Teknik Telekomunikasi, Jurusan Teknik Elektro, **Politeknik Negeri Bandung (POLBAN)**, di bawah bimbingan dosen pengampu:

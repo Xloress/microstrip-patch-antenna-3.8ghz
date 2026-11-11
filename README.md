@@ -55,10 +55,10 @@ Berdasarkan pengujian laboratorium menggunakan Vector Network Analyzer (VNA) **K
 
 <p align="center">
   <img src="assets/simulation/02_s11_setelah_optimasi_3.8ghz.png" alt="Respon S11 CST Studio Suite" width="32%"/>
-  <img src="assets/measurement/02_s11_fieldfox_measurement_curve.jpeg" alt="Kurva Pengukuran S11 Keysight VNA" width="32%"/>
+  <img src="assets/measurement/01_keysight_fieldfox_vna_setup.jpeg" alt="Pengukuran Keysight FieldFox N9917B" width="32%"/>
   <img src="assets/measurement/04_anritsu_sitemaster_measurement.jpg" alt="Pengukuran Return Loss Anritsu Site Master" width="32%"/>
   <br/>
-  <em>Gambar 2: Verifikasi instrumen frekuensi radio (RF). Kiri: Hasil simulasi CST Studio Suite (-31,44 dB @ 3,80 GHz). Tengah: Pengukuran Keysight FieldFox VNA (-16,98 dB @ 3,69 GHz). Kanan: Pengukuran presisi instrumen Anritsu Site Master (Marker 1: 3,6148 GHz @ 10,00 dB, Marker 2 Resonansi: 3,6927 GHz @ 16,90 dB, Marker 3: 3,7744 GHz @ 10,00 dB, Bandwidth = 159,6 MHz).</em>
+  <em>Gambar 2: Verifikasi instrumen frekuensi radio (RF) laboratorium. Kiri: Respon simulasi CST Studio Suite (-31,44 dB @ 3,80 GHz). Tengah: Pengukuran pada Keysight FieldFox N9917B Microwave Analyzer (M1: 3,615 GHz @ 10,00 dB, M2 Resonansi: 3,693 GHz @ 16,98 dB, M3: 3,774 GHz @ 10,03 dB). Kanan: Pengukuran pembanding Anritsu Site Master (Resonansi M2: 3,6927 GHz @ 16,90 dB, Bandwidth = 159,6 MHz).</em>
 </p>
 
 <p align="center">

@@ -54,10 +54,11 @@ Berdasarkan pengujian laboratorium menggunakan Vector Network Analyzer (VNA) **K
 </p>
 
 <p align="center">
-  <img src="assets/simulation/02_s11_setelah_optimasi_3.8ghz.png" alt="Respon S11 CST Studio Suite" width="48%"/>
-  <img src="assets/measurement/02_s11_fieldfox_measurement_curve.jpeg" alt="Kurva Pengukuran S11 Keysight VNA" width="48%"/>
+  <img src="assets/simulation/02_s11_setelah_optimasi_3.8ghz.png" alt="Respon S11 CST Studio Suite" width="32%"/>
+  <img src="assets/measurement/02_s11_fieldfox_measurement_curve.jpeg" alt="Kurva Pengukuran S11 Keysight VNA" width="32%"/>
+  <img src="assets/measurement/04_anritsu_sitemaster_measurement.jpg" alt="Pengukuran Return Loss Anritsu Site Master" width="32%"/>
   <br/>
-  <em>Gambar 2: Perbandingan kurva respon parameter S11 antara hasil simulasi CST Studio Suite (-31,44 dB pada 3,80 GHz) dan hasil pengukuran aktual Keysight FieldFox VNA (-16,98 dB pada 3,69 GHz).</em>
+  <em>Gambar 2: Verifikasi instrumen frekuensi radio (RF). Kiri: Hasil simulasi CST Studio Suite (-31,44 dB @ 3,80 GHz). Tengah: Pengukuran Keysight FieldFox VNA (-16,98 dB @ 3,69 GHz). Kanan: Pengukuran presisi instrumen Anritsu Site Master (Marker 1: 3,6148 GHz @ 10,00 dB, Marker 2 Resonansi: 3,6927 GHz @ 16,90 dB, Marker 3: 3,7744 GHz @ 10,00 dB, Bandwidth = 159,6 MHz).</em>
 </p>
 
 <p align="center">
@@ -102,7 +103,8 @@ Meskipun terjadi pergeseran frekuensi, nilai return loss aktual sebesar **$-16,9
 │   └── measurement/                               # Dokumentasi pengukuran instrumen RF
 │       ├── 01_keysight_fieldfox_vna_setup.jpeg    # Pengukuran dengan Keysight FieldFox N9917B
 │       ├── 02_s11_fieldfox_measurement_curve.jpeg # Kurva S11 terukur pada layar VNA
-│       └── 03_tabel_komparasi_simulasi_realisasi.jpeg # Data komparasi parameter terukur
+│       ├── 03_tabel_komparasi_simulasi_realisasi.jpeg # Data komparasi parameter terukur
+│       └── 04_anritsu_sitemaster_measurement.jpg  # Layar pengukuran instrumen Anritsu Site Master
 └── README.md
 ```
 

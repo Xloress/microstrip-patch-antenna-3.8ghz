@@ -44,6 +44,30 @@ Berdasarkan pengujian laboratorium menggunakan Vector Network Analyzer (VNA) **K
 
 ---
 
+## 📸 Galeri Realisasi Fisik & Pengukuran Laboratorium
+
+<p align="center">
+  <img src="assets/fabrication/03_antena_realisasi_fisik_sma_detail.jpg" alt="Prototipe Fisik Antena Mikrostrip Inset-Fed" width="550"/>
+  <br/>
+  <em>Gambar 1: Prototipe fisik antena mikrostrip single patch dengan inset-feed dan konektor edge-mount SMA pada substrat PCB FR-4.</em>
+</p>
+
+<p align="center">
+  <img src="assets/simulation/02_s11_setelah_optimasi_3.8ghz.png" alt="Respon S11 CST Studio Suite" width="48%"/>
+  <img src="assets/measurement/02_s11_fieldfox_measurement_curve.jpeg" alt="Kurva Pengukuran S11 Keysight VNA" width="48%"/>
+  <br/>
+  <em>Gambar 2: Perbandingan kurva respon parameter S11 antara hasil simulasi CST Studio Suite (-31,44 dB pada 3,80 GHz) dan hasil pengukuran aktual Keysight FieldFox VNA (-16,98 dB pada 3,69 GHz).</em>
+</p>
+
+<p align="center">
+  <img src="assets/simulation/03_farfield_directivity_3d.png" alt="3D Farfield Directivity" width="48%"/>
+  <img src="assets/simulation/04_farfield_gain_3d.png" alt="3D Farfield Gain" width="48%"/>
+  <br/>
+  <em>Gambar 3: Karakteristik pola radiasi 3D medan jauh (Farfield): Direktivitas sebesar 6,488 dBi dan Gain sebesar 5,319 dBi.</em>
+</p>
+
+---
+
 ## 📈 Analisis Pergeseran Frekuensi & Toleransi Fabrikasi
 
 Hasil pengukuran fisik menunjukkan pergeseran frekuensi resonansi dari $3,80\text{ GHz}$ pada simulasi menjadi $3,692\text{ GHz}$ pada hasil realisasi aktual. Analisis rekayasa menyimpulkan bahwa deviasi tersebut dipengaruhi oleh:
@@ -71,7 +95,8 @@ Meskipun terjadi pergeseran frekuensi, nilai return loss aktual sebesar **$-16,9
 │   │   └── 04_farfield_gain_3d.png                # Pola radiasi 3D gain antena
 │   ├── fabrication/                               # Dokumentasi tahapan fabrikasi hardware
 │   │   ├── 01_tahapan_fabrikasi_etching.png       # Alur transfer pola & pelarutan kimia
-│   │   └── 02_antena_tampak_depan_belakang.jpeg   # Foto fisik prototipe antena PCB FR-4
+│   │   ├── 02_antena_tampak_depan_belakang.jpeg   # Foto fisik antena depan dan belakang
+│   │   └── 03_antena_realisasi_fisik_sma_detail.jpg # Foto makro prototipe antena & konektor SMA
 │   └── measurement/                               # Dokumentasi pengukuran instrumen RF
 │       ├── 01_keysight_fieldfox_vna_setup.jpeg    # Pengukuran dengan Keysight FieldFox N9917B
 │       ├── 02_s11_fieldfox_measurement_curve.jpeg # Kurva S11 terukur pada layar VNA
